@@ -38,7 +38,7 @@ int main(){
     printf("\nInsira um número inteiro: \n");
     scanf("%d", &pes.idade);
     printf("Insira um número real: \n");
-    scanf("%f", &pes.peso);
+    scanf("%.2f", &pes.peso);
     fflush(stdin);
     printf("Insira uma palavra: \n");
     scanf("%s", &pes.nome);
